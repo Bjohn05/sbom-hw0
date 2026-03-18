@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'azul-zulu:8.92-8.0.482-jdk-debian13'
+          default: 'memcached:latest'
 
 # env:
 #   REGISTRY: ghcr.io
