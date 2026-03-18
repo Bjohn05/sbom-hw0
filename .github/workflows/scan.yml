@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'nginx:trixie-perl'
+          default: 'nginx:trixie-perl:latest'
 
 # env:
 #   REGISTRY: ghcr.io
