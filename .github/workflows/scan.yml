@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'redhat/granite-3-2b-instruct:latest'
+          default: 'alpine:latest'
 
 # env:
 #   REGISTRY: ghcr.io
